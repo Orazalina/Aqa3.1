@@ -37,12 +37,6 @@ public class CardDeliveryTest {
         Configuration.browser = "firefox";
     }
 
-    @BeforeEach
-    void setUp() {
-        FirefoxOptions options = new FirefoxOptions();
-        options.setHeadless(true);
-    }
-
     @NotNull
     private String when(boolean trim) {
         Calendar c = new GregorianCalendar();
